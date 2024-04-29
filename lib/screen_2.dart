@@ -25,6 +25,22 @@ class MainApp extends StatelessWidget {
                             .image),
               ),
             ),
+            /////////////////////////// UNTERGRUND ////////////////
+            Column(
+              children: [
+                Title(
+                  color: Colors.red,
+                  child: const Text(
+                    "Hier soll etwas stehen",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
+
+            ),
           ],
         ),
       ),
